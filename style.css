@@ -1,0 +1,270 @@
+
+.twitch-widget {
+  background: #333;
+  border-radius: 5px;
+  color: #fff;
+  display: block;
+  margin: 25px 0;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.sideBar {
+  float: left;
+
+}
+
+.online,
+.offline {
+  border-radius: 5px;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+}
+
+.online {
+  background: green;
+}
+
+.offline {
+  background: red;
+}
+
+.viewers {
+  color: #ccc;
+  display: block;
+  margin: 0 0 0 15px;
+  font-size: 0.8em;
+}
+
+#vids {
+  float: left;
+}
+
+
+
+#hello {
+
+  color: white;
+  font-family: 'Orbitron';
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 0 0 5px #00c6ff;
+}
+
+@font-face {
+  font-family: 'BebasNeueRegular';
+  src: url('BebasNeue-webfont.eot');
+  src: url('BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+  url('BebasNeue-webfont.woff') format('woff'),
+  url('BebasNeue-webfont.ttf') format('truetype'),
+  url('BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.clock {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #333;
+  color: #fff;
+}
+
+#Date {
+  font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 0 0 5px #00c6ff;
+}
+
+ul {
+  width: 800px;
+  margin: 0 auto;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+  font-size: 10em;
+  text-align: center;
+  font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 10px #00c6ff;
+}
+
+#point {
+  position: relative;
+  -moz-animation: mymove 1s ease infinite;
+  -webkit-animation: mymove 1s ease infinite;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#ampm {
+
+  font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 0 0 10px #00c6ff;
+}
+/* Simple Animation */
+
+@-webkit-keyframes mymove {
+  0% {
+    opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+  }
+
+  50% {
+    opacity: 0;
+    text-shadow: none;
+  }
+
+  100% {
+    opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+  }
+}
+
+@-moz-keyframes mymove {
+  0% {
+    opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+  }
+
+  50% {
+    opacity: 0;
+    text-shadow: none;
+  }
+
+  100% {
+    opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+  }
+  ;
+}
+
+#right {
+  float: right;
+}
+
+  .fa {
+      padding: 10px;
+      font-size: 20px;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+
+  /* Facebook */
+  .fa-facebook {
+      font-size: 20px;
+      background: #3B5998;
+      color: white;
+      border-radius: 25%;
+      top: 30%;
+      left: .5%;
+  }
+
+  .fa-twitter{
+    font-size: 20px;
+    background: #0084b4;
+    color: white;
+    border-radius: 25%;
+    position: absolute;
+    top: 11%;
+    left: .5%;
+  }
+
+  .fa-youtube{
+    font-size: 20px;
+    background: #bb0000;
+    color: white;
+    border-radius: 25%;
+    position: absolute;
+    top: 21%;
+    left: .5%;
+  }
+
+  .fa-linkedin {
+    font-size: 20px;
+    background: #007bb5;
+    color: white;
+    border-radius: 25%;
+    position: absolute;
+    top: 31%;
+    left: .5%;
+  }
+
+  .fa-reddit {
+    font-size: 20px;
+    background: #ff5700;
+    color: white;
+    border-radius: 25%;
+    position: absolute;
+    top: 41%;
+    left: .5%;
+  }
+
+
+  .myButton {
+
+  	-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  	-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  	box-shadow:inset 0px 1px 0px 0px #cf866c;
+  	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff3700), color-stop(1, #bc3315));
+  	background:-moz-linear-gradient(top, #ff3700 5%, #bc3315 100%);
+  	background:-webkit-linear-gradient(top, #ff3700 5%, #bc3315 100%);
+  	background:-o-linear-gradient(top, #ff3700 5%, #bc3315 100%);
+  	background:-ms-linear-gradient(top, #ff3700 5%, #bc3315 100%);
+  	background:linear-gradient(to bottom, #ff3700 5%, #bc3315 100%);
+  	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3700', endColorstr='#bc3315',GradientType=0);
+  	background-color:#ff3700;
+  	-moz-border-radius:3px;
+  	-webkit-border-radius:3px;
+  	border-radius:3px;
+  	border:1px solid #942911;
+  	display:inline-block;
+  	cursor:pointer;
+  	color:#ffffff;
+  	font-family:Arial;
+  	font-size:15px;
+  	padding:2px 10px;
+  	text-decoration:none;
+  	text-shadow:0px 1px 0px #854629;
+  }
+  .myButton:hover {
+  	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #ff3700));
+  	background:-moz-linear-gradient(top, #bc3315 5%, #ff3700 100%);
+  	background:-webkit-linear-gradient(top, #bc3315 5%, #ff3700 100%);
+  	background:-o-linear-gradient(top, #bc3315 5%, #ff3700 100%);
+  	background:-ms-linear-gradient(top, #bc3315 5%, #ff3700 100%);
+  	background:linear-gradient(to bottom, #bc3315 5%, #ff3700 100%);
+  	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#ff3700',GradientType=0);
+  	background-color:#bc3315;
+  }
+  .myButton:active {
+  	position:relative;
+  	top:1px;
+  }
+.left{
+  float: left;
+}
+  #down{
+    float: down;
+  }
