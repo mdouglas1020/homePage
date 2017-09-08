@@ -21,7 +21,7 @@ $(document).ready(function() {
   // Extract the current date from Date object
   newDate.setDate(newDate.getDate());
   // Output the day, date, month and year
-  $('#Date').html(dayNames[newDate.getDay()] + " " + newDate.getDate() + ' ' + monthNames[newDate.getMonth()] + ' ' + newDate.getFullYear());
+  $('#Date').html(dayNames[newDate.getDay()] + "," + " " + monthNames[newDate.getMonth()] + ' ' + newDate.getDate() + "th" + ' ' + newDate.getFullYear());
   console.log("TEst");
   setInterval(function() {
     // Create a newDate() object and extract the seconds of the current time on the visitor's
@@ -71,7 +71,7 @@ $(document).ready(function() {
 
 
 
-  <h1 id="hello"> replaced </h1>
+  <h1 id="hello"> . </h1>
 <div class="left">
 
 
