@@ -13,6 +13,9 @@
   float: left;
 
 }
+#font {
+  color: #fff;
+}
 
 .online,
 .offline {
